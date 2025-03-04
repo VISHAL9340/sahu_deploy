@@ -1,0 +1,10 @@
+{
+    "version": 2,
+    "builds": [
+      { "src": "api/download.php", "use": "@vercel/php" }
+    ],
+    "routes": [
+      { "src": "/api/download.php", "dest": "api/download.php" }
+    ]
+  }
+  
